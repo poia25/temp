@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+.wrapper {
+    background-color: rgb(51, 43, 28);
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    text-align: center;
+    margin: 0 auto;
+    width: 40vw;
+    padding-top: 100px;
+}
+
+.info {
+    
+    background-color: hsla(180, 100%, 50%, 0.473);
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px 20px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+
+}
+.text {
+    
+    margin-top: 15px;
+    
+}
+
+.text button {
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 2px #eee;
+    padding: 10px 15px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #003CC5 0%, #0B63F6 51%, #003CC5 100%);
+}
+.text button:hover {
+    background-position: right center;
+}
+
+.text input {
+    border-style: none;
+    padding: 10px 15px;
+    box-shadow: 0 0 2px #eee;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.text .city {
+    color: white;
+    font-size: 20px;
+    text-align:start;
+    margin-top: 10px;
+    
+}
+.text .city p {
+    margin-bottom: 5px;
+}
